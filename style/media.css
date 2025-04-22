@@ -1,19 +1,21 @@
 @media (max-width: 1440px) {
-    .hero .left {
-      padding: 70px 50px;
-    }
-  
-    .hero .left h1 {
-      font-size: 44px;
-    }
+  .hero {
+    align-items: center;
+    min-height: auto;
   }
+  .hero .left {
+    padding: 70px 50px;
+  }
+
+  .hero .left h1 {
+    font-size: 44px;
+  }
+}
 
 
 
 @media (max-width: 1200px) {
-  .hero {
-    min-height: auto;
-  }
+
   .hero .left {
     padding: 30px;
   }
@@ -56,7 +58,7 @@
 
 
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .hero {
     display: block;
   }
